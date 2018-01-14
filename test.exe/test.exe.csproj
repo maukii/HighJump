@@ -231,9 +231,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Game\scripts\FPSController.cs" />
+    <Compile Include="Assets\Game\scripts\FPSController_Net.cs" />
     <Compile Include="Assets\Game\scripts\KillPlayer.cs" />
+    <Compile Include="Assets\Game\scripts\KillZone.cs" />
     <Compile Include="Assets\Game\scripts\LevelSpawn.cs" />
-    <Compile Include="Assets\Game\scripts\MoveUp.cs" />
+    <Compile Include="Assets\Game\scripts\MouseLook.cs" />
     <Compile Include="Assets\Game\scripts\WorldGen.cs" />
     <Compile Include="Assets\MainMenu\MainMenu.cs" />
     <Compile Include="Assets\MainMenu\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
@@ -268,6 +271,9 @@
     <Compile Include="Assets\MainMenu\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\MainMenu\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\MainMenu\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\PlayerController3.cs" />
+    <Compile Include="Assets\PlayerMotor.cs" />
+    <Compile Include="Assets\PlayerSetup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MainMenu\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />

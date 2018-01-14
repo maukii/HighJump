@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveUp : MonoBehaviour {
+public class KillZone : MonoBehaviour {
 
     public int speed;
 
